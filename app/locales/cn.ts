@@ -209,7 +209,11 @@ const cn = {
   },
   Store: {
     DefaultTopic: "新的聊天",
-    BotHello: "有什么可以帮你的吗",
+    BotHello: `前往公众号:**[蔚蓝工作室](https://mp.weixin.qq.com/s/JQmHqiUK0UPRVPxJWRYhHg)** 回复 **密码** 免费获取,然后点击左下角[设置](/#/settings)按钮输入密码后解锁**免费试用**。
+**提问:** 你可以在这里放一些常用问题吗?
+**回答:** 当然可以，还可以在这里放一些问题解答，太棒啦！
+卡顿或无响应?可能是用户量太大, **[ 点这里获得独立账号 KEY 使用](http://fa.78km.top/)**  `,
+
     Error: "出错了，稍后重试吧",
     Prompt: {
       History: (content: string) => "这是历史聊天总结作为前情提要：" + content,
